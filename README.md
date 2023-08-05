@@ -17,15 +17,11 @@ The program utilizes the DH parameters provided in the task description to creat
 ## Usage
 
 1. Clone the repository.
-2. Go to the /Test directory:
-```bash
-cd Test
-```
-3. Compile the C program using the following command in the terminal:
+2. Compile the C program using the following command in the terminal:
 ```bash
 gcc -o kinematics kinematics.c -lm
 ```
-4. Run the executable to calculate the position and orientation of the robot's end effector:
+3. Run the executable to calculate the position and orientation of the robot's end effector:
 ```bash
 ./kinematics
 ```
